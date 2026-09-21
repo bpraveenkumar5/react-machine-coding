@@ -1,0 +1,27 @@
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  font-family: Arial, sans-serif;
+}
+.outer{
+  width: 50%;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #e0e0df;
+  border-radius: 15px;
+  overflow: hidden;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.inner{
+  height: 100%;
+  background-color: #0a8408;
+  text-align: right;
+  line-height: 30px;
+  color: white;
+  transition: 0.5s ease-in;
+}

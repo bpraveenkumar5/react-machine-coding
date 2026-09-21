@@ -1,0 +1,13 @@
+.container{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.reg{
+    width: 300px;
+    padding: 10px;
+}

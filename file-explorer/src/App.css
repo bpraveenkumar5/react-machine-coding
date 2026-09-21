@@ -1,0 +1,10 @@
+.App{
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+.container{
+  text-align: left;
+  padding-left: 20px;
+  cursor: pointer
+}

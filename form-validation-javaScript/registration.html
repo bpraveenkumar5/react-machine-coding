@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            <h2>Registration Form</h2>
+            <form id="myForm">
+                <div class="reg">
+                <label>Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+                <label>Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+
+                <label>Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password"><br>
+
+                <button type="submit">Submit</button>
+                </div>
+            </form>
+
+            
+    </div>
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(event){
+            event.preventDefault();
+            let name =document.getElementById('name').value;
+            let email =document.getElementById('email').value;
+            let password =document.getElementById('password').value;
+
+            document.getElementById('resultName').textContent = name;
+            document.getElementById('resultEmail').textContent = email;
+            document.getElementById('resultPassword').textContent = password;
+
+            document.getElementById('myForm').reset();
+
+            document.getElementById('result').style.display = 'block';
+        });
+    </script>
+
+    <div id="result">
+                <p><span id="resultName"></span></p>
+                <p><span id="resultEmail"></span></p>
+                <p><span id="resultPassword"></span></p> 
+    </div>
+</body>
+</html>

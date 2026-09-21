@@ -1,0 +1,17 @@
+.heading-container{
+  display: flex;
+  margin-top: 10px;
+  
+}
+.heading{
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid black
+}
+.tap-content{
+    display: flex;
+    border: 1px solid black;
+    height: 100px;
+    padding: 5px;
+
+}
