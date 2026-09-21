@@ -123,4 +123,4 @@ This project is intended for educational and practice purposes.
 
 Built as a React machine coding / front-end practice repository for UI and component learning.
 
-Praveen Kumar
+Praveen Kumar.
